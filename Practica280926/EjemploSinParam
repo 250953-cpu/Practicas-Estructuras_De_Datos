@@ -1,0 +1,13 @@
+def calcular_total_iva():
+    precio_producto = 500
+    porcentaje_iva = 0.16  # 16% de IVA
+    
+    monto_iva = precio_producto * porcentaje_iva
+    total = precio_producto + monto_iva
+    
+    print("Recibo de Compra\n")
+    print(f"Precio base: ${precio_producto}")
+    print(f"IVA (16%): ${monto_iva}")
+    print(f"Total a pagar: ${total}")
+    
+calcular_total_iva()

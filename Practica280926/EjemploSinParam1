@@ -1,0 +1,7 @@
+def mostrar_menu():
+    print("MENÚ DE JUEGO\n")
+    print("1. Iniciar Partida")
+    print("2. Cargar Partida")
+    print("3. Salir")
+
+mostrar_menu()

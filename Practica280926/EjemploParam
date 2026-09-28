@@ -1,0 +1,6 @@
+def calcularDescuento(precio, porcentaje):
+    descuento = (precio * porcentaje) / 100
+    return descuento
+
+resultado = calcularDescuento(1200, 15)  
+print(f"El descuento aplicado es: ${resultado}")

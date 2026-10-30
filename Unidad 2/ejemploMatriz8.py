@@ -32,4 +32,4 @@ print("\n---DETERMINANTE DE A---")
 print(det)
 
 print("\n---INVERSA DE B---")  
-git 
+ 
